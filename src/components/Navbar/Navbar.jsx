@@ -6,7 +6,7 @@ import { IoMdSettings } from "react-icons/io";
 const Navbar = () => {
   return (
     <div className='nab_bar'>
-      <button className='nav_icon'>
+      <button className='nav_icon nav_active'>
           <FaWallet />
       </button>
       <button className='nav_icon'>

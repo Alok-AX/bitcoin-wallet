@@ -1,10 +1,10 @@
 import React from 'react'
-import { BiSolidDollarCircle } from "react-icons/bi";
+import { PiCurrencyDollarSimpleBold } from "react-icons/pi";
 const BuyBTC = () => {
   return (
     <div className='buy_btcc_box'>
         <div className="dollar_icon_blue">
-            <BiSolidDollarCircle />
+            <PiCurrencyDollarSimpleBold />
         </div>
         <p>Buy BTC</p>
     </div>

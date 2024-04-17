@@ -1,6 +1,15 @@
 .mobile_app{
     display: none;
 }
+.webview{
+    display: block;
+}
+.webview h1{
+    text-align: center;
+    color: #000;
+    font-size: 60px;
+    font-weight: 800;    
+}
 @import "../components/navbar";
 @import "../components/btc";
 @import "../components/_tabformat";
@@ -8,6 +17,7 @@
 @import "../components/navigation";
 
 @media(max-width:600px) {
+
 /*Global CSS Starts Here*/
 *,
 *::before,
@@ -130,6 +140,9 @@ textarea{
     position: relative;
     padding: 0px 20px ;
 
+}
+.webview{
+    display: none;
 }
 }
 

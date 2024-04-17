@@ -1,0 +1,83 @@
+.tab_format_wrapper_row{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin: 15px 10px;
+}
+.tab_format_wrapper_row button{
+    color: var(--light);
+    border: 0px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    background: transparent;
+    
+
+
+}
+.tab_format_wrapper_row .active{
+    background: #aeb8c4;
+    color: var(--white);
+
+}
+.graph_wrap .recharts-responsive-container{
+    height: 300px !important;
+}
+.graph_wrap{
+    margin: 0px 0px 25px;
+    position: relative;
+}
+.graph_container{
+    padding: 0px;
+    background: var(--white);
+    border-radius: 25px;
+    overflow: hidden;
+}
+.graph_wrap_linetext_lower .red_icon{
+    font-size: 8px;
+    color: red;
+
+}
+.green_icon{
+    font-size: 8px;
+    color: #46be46  ;
+}
+.graph_wrap ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: absolute;
+    top: 30px;
+    margin: auto;
+    
+}
+.graph_wrap ul li p{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 5px;
+    color: var(--light);
+    font-weight: 500;
+
+}
+.graph_wrap_linetext_inner{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 5px;
+    color: var(--dark); 
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-weight: 500;
+}
+.orange_icon{
+    font-size: 10px;
+    color: orange;
+    
+}
+
+

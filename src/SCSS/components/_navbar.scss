@@ -1,0 +1,19 @@
+.nav_icon{
+ background: transparent;
+ border: 0;
+ font-size: 30px;
+ padding:20px;
+//  color: #4c5968;
+ color: #aeb8c4;
+}
+.nab_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: var(--white);
+    left: 0;
+    right: 0;
+}

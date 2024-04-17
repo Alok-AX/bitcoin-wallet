@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Navbar from './components/Navbar/Navbar'
+import BTC from './container/BTC/BTC'
+import Tabformat from './components/TabFormat/Tabformat'
+import BitcoineBox from './container/BitcoineBox/BitcoineBox'
+import Navigation from './components/Navigation/Navigation'
 
-function App() {
+const Hero = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='mobile_app'>
+      <Navigation/>
+      <BitcoineBox/>
+      <Tabformat/>
+      <BTC/>
+      <Navbar/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default Hero

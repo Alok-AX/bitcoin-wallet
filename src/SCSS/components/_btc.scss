@@ -1,0 +1,45 @@
+.buy_btcc_box{
+    text-align: center;
+    padding: 30px;
+    background: var(--white);
+    border-radius: 25px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 50%;
+}
+.dollar_icon{
+    font-size: 40px;
+    color: #ec52da;
+    height: 40px;
+}
+.dollar_icon_blue{
+    font-size: 40px;
+    color: #00b0ff;
+    height: 40px;
+}
+.buy_btcc_box p{
+    font-size: 15px;
+    margin: 0;
+    margin-top: 10px;
+    font-weight: 500;
+
+}
+.sell_btcc_box{
+    text-align: center;
+    padding: 30px;
+    background: var(--white);
+    border-radius: 25px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 50%;
+}
+.two_btc_row{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 103px;
+}
+.sell_btcc_box p{
+    margin: auto;
+    margin-top: 10px;
+    font-weight: 500;
+
+}
